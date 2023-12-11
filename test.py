@@ -1,6 +1,8 @@
 
 def is_prime(num):
 
+    """Check if a number is prime."""
+
     if num <= 1:
 
         return False
@@ -16,6 +18,8 @@ def is_prime(num):
 
 def generate_primes(limit):
 
+    """Generate a list of prime numbers up to a given limit."""
+
     primes = []
 
     for number in range(2, limit + 1):
@@ -30,7 +34,8 @@ def generate_primes(limit):
 def main():
 
   
-    upper_limit = int(input("Enter.. an upper limit to generate prime numbers: "))
+
+    upper_limit = int(input("Enter an upper limit to generate prime numbers: "))
 
 
     prime_numbers = generate_primes(upper_limit)
