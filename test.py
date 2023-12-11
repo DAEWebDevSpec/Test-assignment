@@ -30,7 +30,7 @@ def generate_primes(limit):
 def main():
 
   
-    upper_limit = int(input("Enter an upper limit to generate prime numbers: "))
+    upper_limit = int(input("Enter. an upper limit to generate prime numbers: "))
 
 
     prime_numbers = generate_primes(upper_limit)
