@@ -1,4 +1,4 @@
-# Function to check if a numbdsder is prime
+# Function to check if a numbdsd.er is prime
 
 def is_prime(num):
 
