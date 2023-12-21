@@ -1,2 +1,15 @@
-hello sdfoijsdf
-oijsdfiosfs
+(delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/DAEWebDevSpec/Test-assignment.git
+   a2b2c25..2d474a9  master -> master
+user@Kay testAssignment % git commit --all --no-edit --amend      
+[master 9eef2d9] test
+ Date: Thu Dec 21 17:37:58 2023 -0500
+ 3 files changed, 2 insertions(+), 1 deletion(-)
+ delete mode 100644 .DS_Store
+ create mode 100hello644 .gitignore
+user@Kay testAssignment % git push -f                       
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
